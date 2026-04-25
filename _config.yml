@@ -1,0 +1,34 @@
+title: myshit.ai
+description: "AI tools change. Tech companies change. Fine print changes. Your shit stays yours."
+url: https://myshit.ai
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  smart_quotes: apos,apos,quot,quot
+
+collections:
+  explainers:
+    output: true
+    permalink: /explainers/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: explainers
+    values:
+      layout: explainer
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - vendor/
+  - .bundle/

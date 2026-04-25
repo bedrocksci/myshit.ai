@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en" class="antialiased">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/stache.svg">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#9c3b1f">
+  <meta name="apple-mobile-web-app-title" content="myshit.ai">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Inter+Tight:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['Inter Tight', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            display: ['Inter Tight', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            cream: '#faf7f2',
+            paper: '#f5f1e9',
+            ink: '#1a1917',
+            muted: '#6b6862',
+            rust: '#9c3b1f',
+            rustd: '#7a2d17',
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    .display-tight { letter-spacing: -0.03em; }
+    /* Article body — applied to {{ content }} via .prose wrapper */
+    .prose h2 {
+      font-family: 'Inter', sans-serif;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+      color: #6b6862;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid rgba(26, 25, 23, 0.1);
+    }
+    .prose h3 {
+      font-family: 'Inter Tight', 'Inter', sans-serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      margin-top: 2rem;
+      margin-bottom: 0.6rem;
+      color: #1a1917;
+    }
+    .prose p {
+      font-family: 'Inter Tight', 'Inter', sans-serif;
+      font-size: 1.1rem;
+      line-height: 1.65;
+      color: #3a3835;
+      margin: 1rem 0;
+    }
+    .prose > p:first-of-type::first-letter {
+      font-family: 'Inter Tight', 'Inter', sans-serif;
+      font-weight: 700;
+      font-size: 3.6rem;
+      line-height: 0.9;
+      float: left;
+      padding: 0.2rem 0.6rem 0 0;
+      color: #9c3b1f;
+    }
+    .prose ul, .prose ol {
+      font-family: 'Inter Tight', 'Inter', sans-serif;
+      font-size: 1.05rem;
+      line-height: 1.6;
+      color: #3a3835;
+      padding-left: 1.2rem;
+      margin: 1rem 0;
+    }
+    .prose li { margin: 0.5rem 0; }
+    .prose a {
+      color: #7a2d17;
+      text-decoration: underline;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+      transition: color 120ms ease, text-decoration-thickness 120ms ease;
+    }
+    .prose a:hover {
+      color: #9c3b1f;
+      text-decoration-thickness: 2px;
+    }
+    .prose blockquote {
+      border-left: 3px solid #9c3b1f;
+      margin: 1.5rem 0;
+      padding: 0.2rem 0 0.2rem 1.2rem;
+      font-style: italic;
+      color: #3a3835;
+    }
+    @media (max-width: 640px) {
+      .prose > p:first-of-type::first-letter { font-size: 3rem; }
+    }
+  </style>
+</head>
+<body class="bg-cream text-ink font-sans">
+  <header class="mx-auto max-w-3xl px-6 py-6">
+    <a href="/" class="group inline-flex items-center" aria-label="myshit.ai home">
+      <img src="/assets/img/stache.svg" alt="myshit.ai" class="h-7 w-auto transition-transform duration-700 ease-out group-hover:rotate-[360deg] motion-reduce:transition-none motion-reduce:group-hover:rotate-0">
+    </a>
+  </header>
+
+  <main class="mx-auto max-w-3xl px-6 py-6 md:py-10">
+    <nav class="mb-10 text-sm">
+      <a href="/#decay" class="text-muted hover:text-rust transition-colors">&larr; back to platform decay</a>
+    </nav>
+
+    <article class="prose">
+      <h1 class="font-serif font-bold text-ink leading-[1.08] display-tight text-[2.1rem] md:text-5xl mb-4">
+        {{ page.title }}
+      </h1>
+      {% if page.summary %}
+      <p class="font-serif italic text-lg md:text-xl text-muted leading-relaxed mb-10 pb-8 border-b border-ink/10">
+        {{ page.summary }}
+      </p>
+      {% endif %}
+      {{ content }}
+    </article>
+
+    <nav class="mt-16 pt-8 border-t border-ink/10">
+      <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-muted mb-5">Keep reading</p>
+      <ul class="space-y-0">
+        {% for item in site.explainers %}
+          {% unless item.url == page.url %}
+          <li class="border-b border-ink/10 last:border-b-0">
+            <a href="{{ item.url | relative_url }}" class="block py-4 group">
+              <span class="block font-serif text-lg font-semibold text-ink group-hover:text-rust transition-colors">{{ item.title }}</span>
+              {% if item.summary %}<span class="block text-muted text-sm mt-1">{{ item.summary }}</span>{% endif %}
+            </a>
+          </li>
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    </nav>
+  </main>
+
+  <footer class="mx-auto max-w-3xl px-6 py-10 mt-8 text-sm text-ink/50 flex flex-wrap gap-4 justify-between items-center border-t border-ink/10">
+    <span class="inline-flex items-center gap-2.5">
+      <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="h-4 w-auto opacity-70">
+      myshit.ai
+    </span>
+    <span class="italic font-serif">Stay tuned.</span>
+  </footer>
+</body>
+</html>

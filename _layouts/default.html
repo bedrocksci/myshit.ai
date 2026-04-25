@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en" class="antialiased">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% seo %}
+  <!-- Override the title that appears on social-share / link previews. No
+       og:image — we'd rather a clean text preview than an underwhelming icon
+       at small social-card sizes. -->
+  <meta property="og:title" content="Your shit stays yours.">
+  <meta property="og:description" content="Stashed on your Mac, used for your good, not for someone else's bottom line.">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Your shit stays yours.">
+  <meta name="twitter:description" content="Stashed on your Mac, used for your good, not for someone else's bottom line.">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/img/favicon-32.png">
+  <link rel="icon" type="image/svg+xml" href="/assets/img/stache.svg">
+  <link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="theme-color" content="#9c3b1f">
+  <meta name="apple-mobile-web-app-title" content="myshit.ai">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Inter+Tight:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', '-apple-system', 'sans-serif'],
+            serif: ['Inter Tight', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            display: ['Inter Tight', 'Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            cream: '#faf7f2',
+            paper: '#f5f1e9',
+            ink: '#1a1917',
+            muted: '#6b6862',
+            rust: '#9c3b1f',
+            rustd: '#7a2d17',
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    /* Hide native <details> marker across browsers so we can style summary as a button */
+    summary::-webkit-details-marker { display: none; }
+    summary { list-style: none; }
+    /* Fraunces optical-size tuning for large display */
+    .display-tight { letter-spacing: -0.03em; }
+    /* Subtle reveal animation */
+    details[open] > .reveal-panel {
+      animation: revealIn 220ms ease;
+    }
+    @keyframes revealIn {
+      from { opacity: 0; transform: translateY(-4px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      details[open] > .reveal-panel { animation: none; }
+    }
+  </style>
+  {% feed_meta %}
+</head>
+<body class="bg-cream text-ink font-sans">
+  <nav class="mx-auto max-w-6xl px-6 py-6 flex items-center justify-between">
+    <a href="/" class="group inline-flex items-center" aria-label="myshit.ai home">
+      <img src="/assets/img/stache.svg" alt="myshit.ai" class="h-7 w-auto transition-transform duration-700 ease-out group-hover:rotate-[360deg] motion-reduce:transition-none motion-reduce:group-hover:rotate-0">
+    </a>
+    <span class="text-[0.7rem] font-medium uppercase tracking-[0.18em] text-rust border border-rust/40 px-2.5 py-1 rounded-full bg-rust/5">
+      Coming soon
+    </span>
+  </nav>
+
+  {{ content }}
+
+  <footer class="mx-auto max-w-6xl px-6 py-10 mt-8 text-sm text-ink/50 flex flex-wrap gap-4 justify-between items-center border-t border-ink/10">
+    <span class="inline-flex items-center gap-2.5">
+      <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="h-4 w-auto opacity-70">
+      myshit.ai
+    </span>
+    <span class="italic font-serif">Stay tuned.</span>
+  </footer>
+</body>
+</html>
