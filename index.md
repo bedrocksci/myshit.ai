@@ -148,7 +148,7 @@ classification: public
       And sometimes the company you trusted just stops being the company you trusted. A DNA company goes bankrupt, and your records show up on the balance sheet. The startup gets bought, and the new owner has different ideas. The terms get rewritten on a Tuesday morning.
     </p>
     <p>
-      One company can't fix every failure mode. But it can refuse to be a source of any of them. When the picture lives on your Mac, in plain files you control: the deal can't change on you. The company can't disappear with your stuff. Nobody at HQ has anyone's data to get clever with. <span class="text-ink">Stache wants to get ahead of that.</span>
+      Stache can't fix it all. But he can help you do one thing &mdash; refuse to be a source of any of them. When the picture lives on your Mac, in plain files you control: the deal can't change on you. The company can't disappear with your stuff. Nobody at HQ has anyone's data to get clever with. <span class="text-ink">Stache wants to get ahead of that.</span>
     </p>
   </div>
 </section>
