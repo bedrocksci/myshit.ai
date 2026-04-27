@@ -150,19 +150,39 @@ classification: public
     <div>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The deal turns sour.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        A platform shows up offering something useful: free, fast, frictionless. People sign on and start building: relationships, profiles, audiences, businesses. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. Privacy loosens. The picture you helped build no longer answers to you. <span class="text-ink/60">(Facebook, Uber, Amazon &mdash; pick your favorite.)</span>
+        You signed on for the free, fast, frictionless version. You built on it. Then the rules changed. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you.
+      </p>
+      <p class="mt-5 text-[0.78rem] leading-relaxed">
+        <span class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mr-2">Receipts</span>
+        <a href="https://en.wikipedia.org/wiki/Enshittification" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Enshittification</a>
+        <span class="text-ink/30 mx-1.5">&middot;</span>
+        <a href="https://americandialect.org/2023-word-of-the-year-is-enshittification/" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">2023 Word of the Year</a>
       </p>
     </div>
     <div>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The deal was never offered.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        Sometimes there was no deal in the first place. A face-scraping startup builds a database of billions of photos &mdash; yours included &mdash; and sells access to police before you've ever heard of the company. Contractors listen in on private voice memos. A quiz app quietly harvests eighty-seven million people. <span class="text-ink">These are not hypotheticals, google your favorite one.</span> Things you'd have said no to, if anyone had bothered to ask.
+        Sometimes there was no deal at all. Your face gets scraped from a profile and sold to police. Your location gets bundled to whoever asks. Your votes get inferred from a quiz. <span class="text-ink">Things you'd have said no to, if anyone had bothered to ask.</span>
+      </p>
+      <p class="mt-5 text-[0.78rem] leading-relaxed">
+        <span class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mr-2">Receipts</span>
+        <a href="https://www.nytimes.com/interactive/2021/03/18/magazine/facial-recognition-clearview-ai.html" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Clearview AI</a>
+        <span class="text-ink/30 mx-1.5">&middot;</span>
+        <a href="https://www.nytimes.com/2026/01/16/us/politics/supreme-court-warrants-location-data.html" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Geofence warrants</a>
+        <span class="text-ink/30 mx-1.5">&middot;</span>
+        <a href="https://en.wikipedia.org/wiki/Cambridge_Analytica" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Cambridge Analytica</a>
       </p>
     </div>
     <div>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The deal changes mid-flight.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        And sometimes the company you trusted just stops being the company you trusted. A DNA company goes bankrupt, and your records show up on the balance sheet. The startup gets bought, and the new owner has different ideas. The terms get rewritten on a Tuesday morning.
+        The company you trusted stops being the company you trusted. It goes bankrupt &mdash; your records on the balance sheet. It gets bought &mdash; the new owner has different ideas. The terms get rewritten on a Tuesday morning.
+      </p>
+      <p class="mt-5 text-[0.78rem] leading-relaxed">
+        <span class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mr-2">Receipts</span>
+        <a href="https://en.wikipedia.org/wiki/23andMe" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">23andMe bankruptcy</a>
+        <span class="text-ink/30 mx-1.5">&middot;</span>
+        <a href="https://en.wikipedia.org/wiki/Unity_(game_engine)" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Unity Runtime Fee</a>
       </p>
     </div>
   </div>
