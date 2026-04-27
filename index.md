@@ -108,19 +108,28 @@ classification: public
   <div class="grid md:grid-cols-3 gap-12 md:gap-10">
     <div class="group cursor-default">
       <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="h-7 w-auto transition-transform duration-700 ease-out group-hover:rotate-[360deg] motion-reduce:transition-none motion-reduce:group-hover:rotate-0">
-      <h3 class="mt-4 font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">He takes notes so you don't have to.</h3>
-      <p class="mt-3 text-muted leading-relaxed">Docs, meetings, emails, crazy ideas. You throw it, he stashes it where it belongs. No filing, no tagging, no second job.</p>
+      <h3 class="mt-4 font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
+        Stache takes notes.<br>
+        <span class="text-ink/55">So you don't have to.</span>
+      </h3>
+      <p class="mt-3 text-muted leading-relaxed">Docs, meetings, emails, crazy ideas. You throw it, he stashes it where it belongs. No writing, no organizing, no hassle.</p>
     </div>
     <div class="group cursor-default">
       <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="h-7 w-auto transition-transform duration-700 ease-out group-hover:rotate-[360deg] motion-reduce:transition-none motion-reduce:group-hover:rotate-0">
-      <h3 class="mt-4 font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">He briefs your AI so you don't have to.</h3>
-      <p class="mt-3 text-muted leading-relaxed">No more generic AI slop. ChatGPT, Claude, whatever's next. He tells them what they need to know to do real work, on a need-to-know basis.</p>
+      <h3 class="mt-4 font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
+        Stache briefs AI tools.<br>
+        <span class="text-ink/55">So you don't have to.</span>
+      </h3>
+      <p class="mt-3 text-muted leading-relaxed">No more generic AI slop. ChatGPT, Claude, or whatever's next. He shares just what they need to know on a need-to-know basis.</p>
     </div>
     <div class="group cursor-default md:pl-6 md:border-l md:border-rust/30">
       <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="h-7 w-auto transition-transform duration-700 ease-out group-hover:rotate-[360deg] motion-reduce:transition-none motion-reduce:group-hover:rotate-0">
-      <h3 class="mt-4 font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">He doesn't creep, <span class="text-muted font-normal italic">(prob nor should you!)</span></h3>
+      <h3 class="mt-4 font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
+        Stache doesn't creep.<br>
+        <span class="text-ink/55">And shuts out others too.</span>
+      </h3>
       <p class="mt-3 text-muted leading-relaxed">
-        It's sitting right on your Mac. Read it, edit it, take it where you need it. <span class="text-ink">It's your shit, not ours.</span> Plain and simple.
+        <span class="text-ink">All your data sits on your Mac. Plain and simple.</span> Read it, edit it, take it where you need it. It's your shit, not ours.
       </p>
     </div>
   </div>
