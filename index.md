@@ -19,7 +19,7 @@ classification: public
 
   <details class="mt-10 inline-block text-left group">
     <summary class="inline-flex items-center gap-2 px-6 py-3.5 bg-ink text-cream text-[0.95rem] font-semibold rounded-full cursor-pointer select-none hover:bg-rust transition-colors focus:outline-none focus:ring-2 focus:ring-rust focus:ring-offset-2 focus:ring-offset-cream">
-      <span>Download for Mac</span>
+      <span>Sign me up!</span>
       <span class="transition-transform group-open:rotate-90" aria-hidden="true">→</span>
     </summary>
     <div class="reveal-panel mt-5 max-w-md p-5 bg-white border border-ink/10 border-l-[3px] border-l-rust rounded-md">
