@@ -14,17 +14,15 @@ permalink: /about-stache/
 
   <div class="mt-10 font-sans text-base md:text-lg text-ink/80 leading-[1.65] space-y-5">
 
-    <p><strong class="text-ink font-semibold">Stache takes the notes.</strong> What you said in a meeting last Tuesday. The half-formed idea you voice-memo'd on a walk. The article a friend sent that was actually really good. The form due before tax season. The commitments, the projects, the people, the passing things you don't want to forget. He catches it as it happens, sorts it, puts it where it belongs.</p>
+    <p><strong class="text-ink font-semibold">Stache takes the notes.</strong> What you said in a meeting last Tuesday. The half-formed idea you voice-memo'd on a walk. The article a friend sent that was actually really good. The form due before tax season. He catches it as it happens, sorts it, puts it where it belongs.</p>
 
     <p>Then ask him about it later: what did the lawyer say last March? Where's the W2? Who else is working on similar ideas? He just tells you. He doesn't get bored, doesn't get distracted, never forgets where he put something.</p>
 
-    <p><strong class="text-ink font-semibold">Stache hates AI slop.</strong> You've heard of AI, and you probably know that for all the hype, what most people actually get out of it is&hellip; meh. You ask the chatbot a question and you get back something that sounds like a politician dodging on the news. A lot of words, vaguely correct, generically bland, leaving you with less than what you started with.</p>
+    <p><strong class="text-ink font-semibold">Stache gets pretty worked up about AI slop.</strong> For all the hype, what most people get out of AI is&hellip; meh. You ask a question, you get a politician's dodge &mdash; a lot of words, vaguely correct, generically bland, leaving you with less than what you started with.</p>
 
-    <p>The AI isn't dumb &mdash; it's bizarrely brilliant, actually. The problem is, on its own, it knows nothing about <em>you</em>. So Stache becomes your chief of staff for the whole AI thing: he keeps the detailed picture of your work, your life, the dramas and backstories, and briefs the right tool with just enough context to get you a real answer. ChatGPT, Claude, whatever's next. They stop sounding like a stranger wrote the response.</p>
+    <p>The AI isn't dumb, it's bizarrely brilliant. The problem is, on its own, it knows nothing about <em>you</em>. So Stache becomes your chief of staff for the AI: keeps the detailed picture of your work, your life, the dramas and backstories, and briefs the right tool with just enough context to get a real answer. ChatGPT, Claude, whatever's next. They stop sounding like a stranger wrote the response.</p>
 
-    <p><strong class="text-ink font-semibold">Stache walks the tightrope.</strong> The catch with AI is, none of this lives on your computer. The moment your stuff leaves your machine, you no longer know what happens to it. Maybe nothing. Maybe it gets logged, used to train the next model, leaked, or sold for scraps when the company goes broke. Maybe the new owner has different ideas. Or maybe it's just the sketchy stuff &mdash; contractors listening to private voice memos, photos scraped off social media and sold to police. Things you'd have said no to, if anyone had bothered to ask.</p>
-
-    <p>So Stache keeps the whole picture in a safe vault on your Mac &mdash; the meetings, the contracts, the half-formed 2am ideas, all of it. When a question needs an AI engine, he sends just the slice that matters for that one task. Nothing more. The picture itself never leaves. He brings you the value without the exposure. Because it's your shit, not theirs.</p>
+    <p><strong class="text-ink font-semibold">Stache got that millennial dad energy.</strong> He's seen this movie before &mdash; the deal that turned, the data that walked, the company that vanished. AI's bizarrely useful, but the second your stuff leaves your computer, you stop knowing where it's been. So Stache walks the tightrope: keeps the whole picture in a safe vault on your Mac, and only ever ships the slice that matters for the question at hand. Nothing more. The picture itself never leaves. He brings you the value without the exposure. Because it's your shit, not theirs.</p>
 
   </div>
 
