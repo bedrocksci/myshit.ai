@@ -28,11 +28,16 @@ permalink: /about-stache/
 
   </div>
 
-  <div class="mt-14 pt-10 border-t border-ink/10 max-w-xl">
-    <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Who's behind Stache</p>
-    <p class="mt-4 font-sans text-base text-ink/70 leading-[1.6]">
-      Stache is a garage project by Pejman Mohammadi, made to dig himself out. He's a scientist &mdash; busy all the time, messy hair, nerd talk, a million ideas, the whole package. These days he's also got two young kids, a household's worth of paperwork, and a wife who's busier than he is. They just couldn't keep up. So he built Stache to keep up, and figured he might as well share.
-    </p>
+  <div class="mt-14 pt-10 border-t border-ink/10">
+    <div class="flex flex-col md:flex-row md:items-start gap-6 md:gap-8">
+      <div class="flex-1 min-w-0 max-w-xl order-2 md:order-1">
+        <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Who's behind Stache</p>
+        <p class="mt-4 font-sans text-base text-ink/70 leading-[1.6]">
+          Stache is a garage project by Pejman Mohammadi, made to dig himself out. He's a scientist &mdash; busy all the time, messy hair, nerd talk, a million ideas, the whole package. These days he's also got two young kids, a household's worth of paperwork, and a wife who's busier than he is. They just couldn't keep up. So he built Stache to keep up, and figured he might as well share.
+        </p>
+      </div>
+      <img src="/assets/img/pej-cool.png" alt="Pejman Mohammadi" class="w-32 sm:w-36 md:w-40 h-auto rounded-lg flex-shrink-0 order-1 md:order-2">
+    </div>
   </div>
 
   <div class="mt-16 text-right">

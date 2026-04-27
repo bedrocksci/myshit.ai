@@ -151,7 +151,7 @@ classification: public
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Lock-in</p>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">You get hooked,<br>and the deal turns sour.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. The pattern even has a name now &mdash; <em>enshittification</em>, the American Dialect Society's 2023 Word of the Year. Facebook, Amazon, Uber &mdash; pick your favorite.
+        You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. The pattern even has a name now: <em>enshittification</em>, the American Dialect Society's 2023 Word of the Year. Facebook, Amazon, Uber &mdash; pick your favorite.
       </p>
       <p class="mt-5 text-[0.82rem] text-ink/70 leading-relaxed">
         Read more about enshittification (platform decay):
