@@ -28,10 +28,62 @@ permalink: /about-stache/
 
   </div>
 
+  <div class="mt-14 text-center">
+    <details class="inline-block text-left group">
+      <summary class="inline-flex items-center gap-2 px-6 py-3.5 bg-ink text-cream text-[0.95rem] font-semibold rounded-full cursor-pointer select-none hover:bg-rust transition-colors focus:outline-none focus:ring-2 focus:ring-rust focus:ring-offset-2 focus:ring-offset-cream">
+        <span>Sign me up!</span>
+        <span class="transition-transform group-open:rotate-90" aria-hidden="true">&rarr;</span>
+      </summary>
+      <div class="reveal-panel mt-5 max-w-md mx-auto p-5 bg-white border border-ink/10 border-l-[3px] border-l-rust rounded-md">
+        <p class="font-serif italic text-ink/70 leading-relaxed text-[0.98rem]">
+          Stache is not available to the public yet. Put down an email, he'll buzz you up.
+        </p>
+        <form id="waitlist-form"
+              action="https://docs.google.com/forms/d/e/1FAIpQLSf02IdU0lbL3rWW9IlAJ8y0MmYJFWpyxSG7yL7AzluPR2dnmA/formResponse"
+              method="POST" target="waitlist-sink"
+              class="mt-4 flex items-stretch gap-2">
+          <label for="email" class="sr-only">Email</label>
+          <input id="email" type="email" name="entry.1226720376" required placeholder="you@example.com" autocomplete="email"
+                 class="flex-1 min-w-0 h-12 px-3.5 text-[0.95rem] bg-cream border border-ink/15 rounded-md focus:outline-none focus:border-ink focus:ring-2 focus:ring-ink/10 placeholder:text-muted">
+          <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true"
+                 style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">
+          <button type="submit" aria-label="Buzz me up"
+                  class="group relative w-12 h-12 flex-shrink-0 bg-ink hover:bg-rust rounded-md transition-colors focus:outline-none focus:ring-2 focus:ring-rust focus:ring-offset-2 focus:ring-offset-cream">
+            <span aria-hidden="true" class="absolute inset-0 flex items-center justify-center text-cream text-xl leading-none transition-opacity duration-200 group-hover:opacity-0">&rarr;</span>
+            <svg aria-hidden="true" viewBox="0 0 1024 1024" class="absolute inset-0 m-auto h-6 w-auto opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+              <path fill="#faf7f2" d="M512 524 C468 406 352 398 288 482 C240 546 168 562 104 520 C118 646 230 728 362 728 C430 728 484 700 512 646 C540 700 594 728 662 728 C794 728 906 646 920 520 C856 562 784 546 736 482 C672 398 556 406 512 524Z"/>
+            </svg>
+          </button>
+        </form>
+        <iframe name="waitlist-sink" style="display:none" aria-hidden="true" tabindex="-1"></iframe>
+        <p id="waitlist-note" class="mt-3 text-xs text-muted">No spam. One email when he's ready.</p>
+        <p id="waitlist-thanks" class="mt-3 text-xs text-rust font-medium hidden">Got it. Stache will buzz when he's ready.</p>
+        <script>
+          (function () {
+            var form = document.getElementById('waitlist-form');
+            var sink = document.getElementsByName('waitlist-sink')[0];
+            if (!form || !sink) return;
+            var submitted = false;
+            form.addEventListener('submit', function (e) {
+              if (form.website && form.website.value) { e.preventDefault(); return; }
+              submitted = true;
+            });
+            sink.addEventListener('load', function () {
+              if (!submitted) return;
+              form.style.display = 'none';
+              document.getElementById('waitlist-note').classList.add('hidden');
+              document.getElementById('waitlist-thanks').classList.remove('hidden');
+            });
+          })();
+        </script>
+      </div>
+    </details>
+  </div>
+
   <div class="mt-14 pt-10 border-t border-ink/10">
     <div class="flex flex-col md:flex-row md:items-end gap-6 md:gap-8">
       <div class="flex-1 min-w-0 max-w-xl order-2 md:order-1">
-        <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Who's behind Stache</p>
+        <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Who's behind The Stache</p>
         <p class="mt-4 font-sans text-base text-ink/70 leading-[1.6]">
           Stache is a garage project by Pejman Mohammadi, made to dig himself out. He's a scientist &mdash; busy all the time, messy hair, nerd talk, a million ideas, the whole package. These days he's also got two young kids, a household's worth of paperwork, and a wife who's busier than he is. They just couldn't keep up. So he built Stache to keep up, and figured he might as well share.
         </p>
