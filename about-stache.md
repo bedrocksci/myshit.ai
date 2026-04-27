@@ -36,7 +36,7 @@ permalink: /about-stache/
           Stache is a garage project by Pejman Mohammadi, made to dig himself out. He's a scientist &mdash; busy all the time, messy hair, nerd talk, a million ideas, the whole package. These days he's also got two young kids, a household's worth of paperwork, and a wife who's busier than he is. They just couldn't keep up. So he built Stache to keep up, and figured he might as well share.
         </p>
       </div>
-      <img src="/assets/img/pej-cool.png" alt="Pejman Mohammadi" class="w-32 sm:w-36 md:w-40 h-auto rounded-lg flex-shrink-0 order-1 md:order-2">
+      <img src="/assets/img/pej-cool.jpg" alt="Pejman Mohammadi" class="w-40 sm:w-44 md:w-52 h-auto rounded-lg flex-shrink-0 order-1 md:order-2">
     </div>
   </div>
 
