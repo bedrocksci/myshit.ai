@@ -7,7 +7,7 @@ classification: public
 <!-- Hero -->
 <section class="mx-auto max-w-5xl px-6 pt-16 pb-20 md:pt-28 md:pb-28 text-center">
   <p class="font-serif italic text-lg md:text-xl text-muted max-w-2xl mx-auto leading-snug">
-    <span class="tagline-phrase">AI tools change.</span> <span class="tagline-phrase" style="animation-delay: 0.4s;">Tech companies change.</span> <span class="tagline-phrase" style="animation-delay: 0.8s;"><span class="text-sm md:text-base">Fineprints</span> change.</span> <span class="text-ink not-italic font-semibold">But.</span>
+    <span class="tagline-phrase">AI tools change.</span> <span class="tagline-phrase" style="animation-delay: 1s;">Tech companies change.</span> <span class="tagline-phrase" style="animation-delay: 2s;"><span class="text-sm md:text-base">Fineprints</span> change.</span> <span class="text-ink not-italic font-semibold">But.</span>
   </p>
   <h1 class="mt-5 font-serif font-bold display-tight text-[3rem] sm:text-6xl md:text-7xl lg:text-8xl leading-[1.02] text-ink">
     Your shit should stay&nbsp;yours.
