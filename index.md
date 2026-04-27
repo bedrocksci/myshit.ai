@@ -150,21 +150,12 @@ classification: public
     <div>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">You get hooked and the deal turns sour.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. Facebook, Amazon, Uber &mdash; pick your favorite.
+        You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. The pattern even has a name now &mdash; <em>enshittification</em>, the American Dialect Society's 2023 Word of the Year. Facebook, Amazon, Uber &mdash; pick your favorite.
       </p>
-      <div class="mt-5">
-        <p class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mb-2">Read past examples</p>
-        <ul class="text-[0.82rem] text-ink/70 leading-relaxed space-y-1">
-          <li>
-            Enshittification &mdash;
-            <a href="https://en.wikipedia.org/wiki/Enshittification" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
-          </li>
-          <li>
-            2023 Word of the Year &mdash;
-            <a href="https://americandialect.org/2023-word-of-the-year-is-enshittification/" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">American Dialect Society</a>
-          </li>
-        </ul>
-      </div>
+      <p class="mt-5 text-[0.82rem] text-ink/70 leading-relaxed">
+        Read more about enshittification (platform decay):
+        <a href="https://en.wikipedia.org/wiki/Enshittification" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
+      </p>
     </div>
     <div>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">Hand it over once, it gets used for everything.</h3>
@@ -175,19 +166,19 @@ classification: public
         <p class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mb-2">Read past examples</p>
         <ul class="text-[0.82rem] text-ink/70 leading-relaxed space-y-1">
           <li>
-            Clearview AI &mdash;
+            Your face mined &mdash;
             <a href="https://www.nytimes.com/interactive/2021/03/18/magazine/facial-recognition-clearview-ai.html" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">NY Times</a>
             <span class="text-ink/30 mx-1">&middot;</span>
             <a href="https://en.wikipedia.org/wiki/Clearview_AI" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
           </li>
           <li>
-            Voice memos overheard &mdash;
+            Your voice overheard &mdash;
             <a href="https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">The Guardian</a>
             <span class="text-ink/30 mx-1">&middot;</span>
-            <a href="https://en.wikipedia.org/wiki/Siri" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
+            <a href="https://www.reuters.com/legal/apple-pay-95-million-settle-siri-privacy-lawsuit-2025-01-02/" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Reuters</a>
           </li>
           <li>
-            Geofence warrants &mdash;
+            Your location tracked &mdash;
             <a href="https://www.nytimes.com/2026/01/16/us/politics/supreme-court-warrants-location-data.html" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">NY Times</a>
           </li>
         </ul>
