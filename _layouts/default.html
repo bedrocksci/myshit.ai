@@ -61,13 +61,14 @@
     @media (prefers-reduced-motion: reduce) {
       details[open] > .reveal-panel { animation: none; }
     }
-    /* Hero tagline: rust hops from 1 -> 2 -> 3 -> 1 -> 2 -> 3 in continuous loop */
+    /* Hero tagline: each phrase blinks rust ON then OFF, then next, then next */
     @keyframes phrase-pulse {
-      0%, 30%   { color: #9c3b1f; }  /* rust held for first third of cycle */
-      35%, 100% { color: #6b6862; }  /* muted for the rest */
+      0%, 1%    { color: #6b6862; }  /* muted */
+      2%, 18%   { color: #9c3b1f; }  /* rust ON, held briefly */
+      19%, 100% { color: #6b6862; }  /* OFF, muted held until next cycle */
     }
     .tagline-phrase {
-      animation: phrase-pulse 3s ease-in-out infinite;
+      animation: phrase-pulse 3s linear infinite;
     }
     @media (prefers-reduced-motion: reduce) {
       .tagline-phrase { animation: none; }
