@@ -141,55 +141,80 @@ classification: public
     <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">
       What keeps Stache up at night
     </p>
-    <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[1.8rem] md:text-4xl">
-      Three ways the deal goes bad.
+    <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[1.8rem] md:text-4xl max-w-3xl mx-auto">
+      Three ways things go bad when you put your data out there.
     </h2>
   </div>
 
   <div class="grid md:grid-cols-3 gap-10 md:gap-10 mb-14 md:mb-16">
     <div>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The deal turns sour.</h3>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">You get hooked and the deal turns sour.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        You signed on for the free, fast, frictionless version. You built on it. Then the rules changed. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you.
+        You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. Facebook, Amazon, Uber &mdash; pick your favorite.
       </p>
-      <p class="mt-5 text-[0.78rem] leading-relaxed">
-        <span class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mr-2">Receipts</span>
-        <a href="https://en.wikipedia.org/wiki/Enshittification" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Enshittification</a>
-        <span class="text-ink/30 mx-1.5">&middot;</span>
-        <a href="https://americandialect.org/2023-word-of-the-year-is-enshittification/" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">2023 Word of the Year</a>
-      </p>
+      <div class="mt-5">
+        <p class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mb-2">Read past examples</p>
+        <ul class="text-[0.82rem] text-ink/70 leading-relaxed space-y-1">
+          <li>
+            Enshittification &mdash;
+            <a href="https://en.wikipedia.org/wiki/Enshittification" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
+          </li>
+          <li>
+            2023 Word of the Year &mdash;
+            <a href="https://americandialect.org/2023-word-of-the-year-is-enshittification/" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">American Dialect Society</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <div>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The deal was never offered.</h3>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">Hand it over once, it gets used for everything.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        Sometimes there was no deal at all. Your face gets scraped from a profile and sold to police. Your location gets bundled to whoever asks. Your votes get inferred from a quiz. <span class="text-ink">Things you'd have said no to, if anyone had bothered to ask.</span>
+        Sometimes there was no deal at all. Your face from a friend's tag, in a face-rec database. Your voice memo, overheard by a contractor. Your neighborhood ping, in a court warrant. <span class="text-ink">Things you'd have said no to, if anyone had bothered to ask.</span>
       </p>
-      <p class="mt-5 text-[0.78rem] leading-relaxed">
-        <span class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mr-2">Receipts</span>
-        <a href="https://www.nytimes.com/interactive/2021/03/18/magazine/facial-recognition-clearview-ai.html" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Clearview AI</a>
-        <span class="text-ink/30 mx-1.5">&middot;</span>
-        <a href="https://www.nytimes.com/2026/01/16/us/politics/supreme-court-warrants-location-data.html" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Geofence warrants</a>
-        <span class="text-ink/30 mx-1.5">&middot;</span>
-        <a href="https://en.wikipedia.org/wiki/Cambridge_Analytica" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Cambridge Analytica</a>
-      </p>
+      <div class="mt-5">
+        <p class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mb-2">Read past examples</p>
+        <ul class="text-[0.82rem] text-ink/70 leading-relaxed space-y-1">
+          <li>
+            Clearview AI &mdash;
+            <a href="https://www.nytimes.com/interactive/2021/03/18/magazine/facial-recognition-clearview-ai.html" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">NY Times</a>
+            <span class="text-ink/30 mx-1">&middot;</span>
+            <a href="https://en.wikipedia.org/wiki/Clearview_AI" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
+          </li>
+          <li>
+            Voice memos overheard &mdash;
+            <a href="https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">The Guardian</a>
+            <span class="text-ink/30 mx-1">&middot;</span>
+            <a href="https://en.wikipedia.org/wiki/Siri" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
+          </li>
+          <li>
+            Geofence warrants &mdash;
+            <a href="https://www.nytimes.com/2026/01/16/us/politics/supreme-court-warrants-location-data.html" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">NY Times</a>
+          </li>
+        </ul>
+      </div>
     </div>
     <div>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The deal changes mid-flight.</h3>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The company goes down. Your data goes up for sale.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        The company you trusted stops being the company you trusted. It goes bankrupt &mdash; your records on the balance sheet. It gets bought &mdash; the new owner has different ideas. The terms get rewritten on a Tuesday morning.
+        When a company goes bankrupt, your data becomes a liquid asset. 23andMe held DNA for fifteen million people. When the company collapsed, the database went up for sale.
       </p>
-      <p class="mt-5 text-[0.78rem] leading-relaxed">
-        <span class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mr-2">Receipts</span>
-        <a href="https://en.wikipedia.org/wiki/23andMe" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">23andMe bankruptcy</a>
-        <span class="text-ink/30 mx-1.5">&middot;</span>
-        <a href="https://en.wikipedia.org/wiki/Unity_(game_engine)" class="text-ink/65 underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Unity Runtime Fee</a>
-      </p>
+      <div class="mt-5">
+        <p class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mb-2">Read past examples</p>
+        <ul class="text-[0.82rem] text-ink/70 leading-relaxed space-y-1">
+          <li>
+            23andMe &mdash;
+            <a href="https://www.nytimes.com/2025/06/10/business/23andme-data-lawsuit.html" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">NY Times</a>
+            <span class="text-ink/30 mx-1">&middot;</span>
+            <a href="https://en.wikipedia.org/wiki/23andMe" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 
   <div class="font-serif text-base md:text-lg text-ink/75 max-w-2xl mx-auto leading-relaxed text-center">
     <p>
-      Stache can't fix it all. But he can help you do one thing &mdash; refuse to be a source of any of them. When the picture lives on your Mac, in plain files you control: the deal can't change on you. The company can't disappear with your stuff. Nobody at HQ has anyone's data to get clever with. <span class="text-ink">Stache wants to get ahead of that.</span>
+      Stache can't fix it all. But he can help you do one thing &mdash; refuse to be a source of any of them. When the picture lives on your own computer, in files you control: the deal can't change on you. The company can't disappear with your stuff. Nobody at HQ has anyone's data to get clever with. <span class="text-ink">Stache wants to get ahead of that.</span>
     </p>
   </div>
 </section>
