@@ -148,6 +148,7 @@ classification: public
 
   <div class="grid md:grid-cols-3 gap-10 md:gap-10 mb-14 md:mb-16">
     <div>
+      <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Lock-in</p>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">You get hooked and the deal turns sour.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. The pattern even has a name now &mdash; <em>enshittification</em>, the American Dialect Society's 2023 Word of the Year. Facebook, Amazon, Uber &mdash; pick your favorite.
@@ -158,7 +159,8 @@ classification: public
       </p>
     </div>
     <div>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">Hand it over once, it gets used for everything.</h3>
+      <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Misuse</p>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">Hand it over once, and it's out of your hands.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         Sometimes there was no deal at all. Your face from a friend's tag, in a face-rec database. Your voice memo, overheard by a contractor. Your neighborhood ping, in a court warrant. <span class="text-ink">Things you'd have said no to, if anyone had bothered to ask.</span>
       </p>
@@ -166,40 +168,36 @@ classification: public
         <p class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mb-2">Read past examples</p>
         <ul class="text-[0.82rem] text-ink/70 leading-relaxed space-y-1">
           <li>
-            Your face mined &mdash;
+            Your face mined:
             <a href="https://www.nytimes.com/interactive/2021/03/18/magazine/facial-recognition-clearview-ai.html" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">NY Times</a>
             <span class="text-ink/30 mx-1">&middot;</span>
             <a href="https://en.wikipedia.org/wiki/Clearview_AI" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
           </li>
           <li>
-            Your voice overheard &mdash;
+            Your voice overheard:
             <a href="https://www.theguardian.com/technology/2019/jul/26/apple-contractors-regularly-hear-confidential-details-on-siri-recordings" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">The Guardian</a>
             <span class="text-ink/30 mx-1">&middot;</span>
             <a href="https://www.reuters.com/legal/apple-pay-95-million-settle-siri-privacy-lawsuit-2025-01-02/" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Reuters</a>
           </li>
           <li>
-            Your location tracked &mdash;
+            Your location tracked:
             <a href="https://www.nytimes.com/2026/01/16/us/politics/supreme-court-warrants-location-data.html" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">NY Times</a>
           </li>
         </ul>
       </div>
     </div>
     <div>
+      <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Drift</p>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The company goes down. Your data goes up for sale.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        When a company goes bankrupt, your data becomes a liquid asset. 23andMe held DNA for fifteen million people. When the company collapsed, the database went up for sale.
+        When a company goes bankrupt, you'd lose your data, if you're lucky. If not, your data becomes a liquid asset, sold for scraps. Think DNA from fifteen million people, sold for scraps.
       </p>
-      <div class="mt-5">
-        <p class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mb-2">Read past examples</p>
-        <ul class="text-[0.82rem] text-ink/70 leading-relaxed space-y-1">
-          <li>
-            23andMe &mdash;
-            <a href="https://www.nytimes.com/2025/06/10/business/23andme-data-lawsuit.html" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">NY Times</a>
-            <span class="text-ink/30 mx-1">&middot;</span>
-            <a href="https://en.wikipedia.org/wiki/23andMe" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
-          </li>
-        </ul>
-      </div>
+      <p class="mt-5 text-[0.82rem] text-ink/70 leading-relaxed">
+        Read more about 23andMe bankruptcy:
+        <a href="https://www.nytimes.com/2025/06/10/business/23andme-data-lawsuit.html" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">NY Times</a>
+        <span class="text-ink/30 mx-1">&middot;</span>
+        <a href="https://en.wikipedia.org/wiki/23andMe" class="underline underline-offset-2 decoration-1 hover:text-rust hover:decoration-2" target="_blank" rel="noopener">Wikipedia</a>
+      </p>
     </div>
   </div>
 
