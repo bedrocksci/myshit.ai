@@ -47,7 +47,7 @@ permalink: /about-stache/
   </div>
 
   <p class="mt-16 text-center font-serif italic text-ink/70 text-xl md:text-2xl">
-    Your shit, your stash.
+    Your shit, your stash, your rules.
   </p>
   <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="mt-5 mx-auto h-10 md:h-12 w-auto">
 
