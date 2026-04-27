@@ -22,7 +22,7 @@ permalink: /about-stache/
 
     <p>The AI isn't dumb, it's bizarrely brilliant. The problem is, on its own, it knows nothing about <em>you</em>. So Stache becomes your chief of staff for the AI: keeps the detailed picture of your work, your life, the dramas and backstories, and briefs the right tool with just enough context to get a real answer. ChatGPT, Claude, whatever's next. They stop sounding like a stranger wrote the response.</p>
 
-    <p><strong class="text-ink font-semibold">Stache got that millennial dad energy.</strong> He's seen this movie before &mdash; the deal that turned, the data that walked, the company that vanished. AI's bizarrely useful, but the second your stuff leaves your computer, you stop knowing where it's been. So Stache walks the tightrope: keeps the whole picture in a safe vault on your Mac, and only ever ships the slice that matters for the question at hand. Nothing more. The picture itself never leaves. He brings you the value without the exposure. Because it's your shit, not theirs.</p>
+    <p><strong class="text-ink font-semibold">Stache got that protective millennial dad energy.</strong> He's seen this movie before &mdash; the deal that turned, the data that walked, the company that vanished. AI's bizarrely useful, but the second your stuff leaves your computer, you stop knowing where it's been. So Stache walks the tightrope: keeps the whole picture in a safe vault on your Mac, and only ever ships the slice that matters for the question at hand. Nothing more. The picture itself never leaves. He brings you the value without the exposure. And if Stache goes down, your data is still sitting on your computer, not in an auction house. Because it's your shit, not theirs.</p>
 
   </div>
 
