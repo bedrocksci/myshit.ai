@@ -28,7 +28,26 @@ permalink: /about-stache/
 
   </div>
 
-  <div class="mt-14 text-center">
+  <div class="mt-14 pt-10 border-t border-ink/10">
+    <div class="flex flex-col md:flex-row md:items-end gap-6 md:gap-8">
+      <div class="flex-1 min-w-0 max-w-xl order-2 md:order-1">
+        <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Who's behind The Stache</p>
+        <p class="mt-4 font-sans text-base text-ink/70 leading-[1.6]">
+          Stache is a garage project by Pejman Mohammadi, made to dig himself out. He's a scientist &mdash; busy all the time, messy hair, nerd talk, a million ideas, the whole package. These days he's also got two young kids, a household's worth of paperwork, and a wife who's busier than he is. They just couldn't keep up. So he built Stache to keep up, and figured he might as well share.
+        </p>
+      </div>
+      <img src="/assets/img/pej-cool.jpg" alt="Pejman Mohammadi" class="w-40 sm:w-44 md:w-52 h-auto rounded-lg flex-shrink-0 order-1 md:order-2">
+    </div>
+  </div>
+
+  <div class="mt-16 text-right">
+    <p class="font-serif italic text-ink/70 text-xl md:text-2xl">
+      Your shit, your stash, your rules.
+    </p>
+    <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="mt-3 ml-auto h-10 md:h-12 w-auto">
+  </div>
+
+  <div class="mt-20 text-center">
     <details class="inline-block text-left group">
       <summary class="inline-flex items-center gap-2 px-6 py-3.5 bg-ink text-cream text-[0.95rem] font-semibold rounded-full cursor-pointer select-none hover:bg-rust transition-colors focus:outline-none focus:ring-2 focus:ring-rust focus:ring-offset-2 focus:ring-offset-cream">
         <span>Sign me up!</span>
@@ -78,25 +97,6 @@ permalink: /about-stache/
         </script>
       </div>
     </details>
-  </div>
-
-  <div class="mt-14 pt-10 border-t border-ink/10">
-    <div class="flex flex-col md:flex-row md:items-end gap-6 md:gap-8">
-      <div class="flex-1 min-w-0 max-w-xl order-2 md:order-1">
-        <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Who's behind The Stache</p>
-        <p class="mt-4 font-sans text-base text-ink/70 leading-[1.6]">
-          Stache is a garage project by Pejman Mohammadi, made to dig himself out. He's a scientist &mdash; busy all the time, messy hair, nerd talk, a million ideas, the whole package. These days he's also got two young kids, a household's worth of paperwork, and a wife who's busier than he is. They just couldn't keep up. So he built Stache to keep up, and figured he might as well share.
-        </p>
-      </div>
-      <img src="/assets/img/pej-cool.jpg" alt="Pejman Mohammadi" class="w-40 sm:w-44 md:w-52 h-auto rounded-lg flex-shrink-0 order-1 md:order-2">
-    </div>
-  </div>
-
-  <div class="mt-16 text-right">
-    <p class="font-serif italic text-ink/70 text-xl md:text-2xl">
-      Your shit, your stash, your rules.
-    </p>
-    <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="mt-3 ml-auto h-10 md:h-12 w-auto">
   </div>
 
 </section>
