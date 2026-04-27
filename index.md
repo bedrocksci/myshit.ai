@@ -10,7 +10,7 @@ classification: public
     AI tools change. Tech companies change. Fineprints change. <span class="text-ink not-italic font-semibold">But.</span>
   </p>
   <h1 class="mt-5 font-serif font-bold display-tight text-[3rem] sm:text-6xl md:text-7xl lg:text-8xl leading-[1.02] text-ink">
-    Your shit stays&nbsp;yours.
+    Your shit should stay&nbsp;yours.
   </h1>
   <p class="mt-8 font-serif text-lg md:text-xl text-ink/70 max-w-xl mx-auto leading-relaxed">
     Stashed on your Mac, used for your good,<br>
