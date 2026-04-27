@@ -63,12 +63,12 @@
     }
     /* Hero tagline: each phrase pulses rust in sequence, suggesting "change" */
     @keyframes phrase-pulse {
-      0%, 8%   { color: #6b6862; }   /* muted, holding */
-      13%, 18% { color: #9c3b1f; }   /* rust peak */
-      25%, 100% { color: #6b6862; }  /* back to muted, hold */
+      0%, 10%   { color: #6b6862; }  /* muted, holding */
+      20%, 28%  { color: #9c3b1f; }  /* rust peak */
+      38%, 100% { color: #6b6862; }  /* back to muted, hold */
     }
     .tagline-phrase {
-      animation: phrase-pulse 6s ease-in-out infinite;
+      animation: phrase-pulse 4s ease-in-out infinite;
     }
     @media (prefers-reduced-motion: reduce) {
       .tagline-phrase { animation: none; }
