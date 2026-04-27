@@ -89,7 +89,7 @@ classification: public
       </p>
       <p class="!mt-5">
         <a href="#decay" class="inline-flex items-center gap-1.5 text-rust/80 hover:text-rust text-base font-medium transition-colors group">
-          <span class="border-b border-rust/30 group-hover:border-rust">Learn more about platform decay</span>
+          <span class="border-b border-rust/30 group-hover:border-rust">learn about How things go bad when your data's out there.</span>
           <span class="transition-transform group-hover:translate-x-0.5" aria-hidden="true">→</span>
         </a>
       </p>
