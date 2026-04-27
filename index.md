@@ -142,14 +142,14 @@ classification: public
       What keeps Stache up at night
     </p>
     <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[1.8rem] md:text-4xl max-w-3xl mx-auto">
-      Three ways things go bad when you put your data out there.
+      How things go bad when your data's out there.
     </h2>
   </div>
 
   <div class="grid md:grid-cols-3 gap-10 md:gap-10 mb-14 md:mb-16">
     <div>
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Lock-in</p>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">You get hooked and the deal turns sour.</h3>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">You get hooked,<br>and the deal turns sour.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. The pattern even has a name now &mdash; <em>enshittification</em>, the American Dialect Society's 2023 Word of the Year. Facebook, Amazon, Uber &mdash; pick your favorite.
       </p>
@@ -160,7 +160,7 @@ classification: public
     </div>
     <div>
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Misuse</p>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">Hand it over once, and it's out of your hands.</h3>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">Hand it over once,<br>and it's out of your hands.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         Sometimes there was no deal at all. Your face from a friend's tag, in a face-rec database. Your voice memo, overheard by a contractor. Your neighborhood ping, in a court warrant. <span class="text-ink">Things you'd have said no to, if anyone had bothered to ask.</span>
       </p>
@@ -188,7 +188,7 @@ classification: public
     </div>
     <div>
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Drift</p>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The company goes down. Your data goes up for sale.</h3>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The company goes down, your data goes up for sale.</h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         When a company goes bankrupt, you'd lose your data, if you're lucky. If not, your data becomes a liquid asset, sold for scraps. Think DNA from fifteen million people, sold for scraps.
       </p>
