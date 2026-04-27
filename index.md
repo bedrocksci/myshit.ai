@@ -136,8 +136,8 @@ classification: public
 </section>
 
 <!-- What keeps Stache up at night -->
-<section id="decay" class="mx-auto max-w-3xl px-6 py-20 md:py-28 border-t border-ink/10 scroll-mt-8">
-  <div class="text-center mb-10 md:mb-12">
+<section id="decay" class="mx-auto max-w-5xl px-6 py-20 md:py-28 border-t border-ink/10 scroll-mt-8">
+  <div class="text-center mb-12 md:mb-16">
     <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">
       What keeps Stache up at night
     </p>
@@ -146,16 +146,28 @@ classification: public
     </h2>
   </div>
 
-  <div class="font-serif text-base md:text-lg text-ink/75 max-w-2xl mx-auto leading-relaxed space-y-4 mb-12">
-    <p>
-      A platform shows up offering something useful: free, fast, frictionless. People sign on and start building: relationships, profiles, audiences, businesses. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. Privacy loosens. The picture you helped build no longer answers to you. The American Dialect Society named <a href="https://americandialect.org/2023-word-of-the-year-is-enshittification/" class="text-rustd underline underline-offset-2 decoration-1 hover:decoration-2 hover:text-rust" target="_blank" rel="noopener">"enshittification" their 2023 Word of the Year</a> &mdash; academic linguistics catching up to what users had been describing for a decade. <span class="text-ink/60">(Facebook, Uber, Amazon. Pick your favorite.)</span>
-    </p>
-    <p>
-      Sometimes the deal was never offered in the first place. A face-scraping startup builds a database of billions of photos &mdash; yours included &mdash; and sells access to police before you've ever heard of the company. Contractors listen in on private voice memos. A quiz app quietly harvests eighty-seven million people. <span class="text-ink">These are not hypotheticals, google your favorite one.</span> Things you'd have said no to, if anyone had bothered to ask.
-    </p>
-    <p>
-      And sometimes the company you trusted just stops being the company you trusted. A DNA company goes bankrupt, and your records show up on the balance sheet. The startup gets bought, and the new owner has different ideas. The terms get rewritten on a Tuesday morning.
-    </p>
+  <div class="grid md:grid-cols-3 gap-10 md:gap-10 mb-14 md:mb-16">
+    <div>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The deal turns sour.</h3>
+      <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
+        A platform shows up offering something useful: free, fast, frictionless. People sign on and start building: relationships, profiles, audiences, businesses. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. Privacy loosens. The picture you helped build no longer answers to you. <span class="text-ink/60">(Facebook, Uber, Amazon &mdash; pick your favorite.)</span>
+      </p>
+    </div>
+    <div>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The deal was never offered.</h3>
+      <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
+        Sometimes there was no deal in the first place. A face-scraping startup builds a database of billions of photos &mdash; yours included &mdash; and sells access to police before you've ever heard of the company. Contractors listen in on private voice memos. A quiz app quietly harvests eighty-seven million people. <span class="text-ink">These are not hypotheticals, google your favorite one.</span> Things you'd have said no to, if anyone had bothered to ask.
+      </p>
+    </div>
+    <div>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The deal changes mid-flight.</h3>
+      <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
+        And sometimes the company you trusted just stops being the company you trusted. A DNA company goes bankrupt, and your records show up on the balance sheet. The startup gets bought, and the new owner has different ideas. The terms get rewritten on a Tuesday morning.
+      </p>
+    </div>
+  </div>
+
+  <div class="font-serif text-base md:text-lg text-ink/75 max-w-2xl mx-auto leading-relaxed text-center">
     <p>
       Stache can't fix it all. But he can help you do one thing &mdash; refuse to be a source of any of them. When the picture lives on your Mac, in plain files you control: the deal can't change on you. The company can't disappear with your stuff. Nobody at HQ has anyone's data to get clever with. <span class="text-ink">Stache wants to get ahead of that.</span>
     </p>

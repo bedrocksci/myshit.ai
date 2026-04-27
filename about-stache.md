@@ -9,7 +9,7 @@ permalink: /about-stache/
 <section class="mx-auto max-w-2xl px-6 pt-12 pb-24 md:pt-20 md:pb-32">
 
   <h1 class="font-serif font-bold display-tight text-[1.9rem] md:text-[2.6rem] leading-[1.05] text-ink">
-    Everything &gt;Right Here&lt; All at Once.
+    Everything <em class="italic">Right Here</em> All at Once.
   </h1>
 
   <div class="mt-10 font-sans text-base md:text-lg text-ink/80 leading-[1.65] space-y-5">
@@ -24,8 +24,15 @@ permalink: /about-stache/
 
     <p><strong class="text-ink font-semibold">Stache walks the tightrope.</strong> The catch with AI is, none of this lives on your computer. The moment your stuff leaves your machine, you no longer know what happens to it. Maybe nothing. Maybe it gets logged, used to train the next model, leaked, or sold for scraps when the company goes broke. Maybe the new owner has different ideas. Or maybe it's just the sketchy stuff &mdash; contractors listening to private voice memos, photos scraped off social media and sold to police. Things you'd have said no to, if anyone had bothered to ask.</p>
 
-    <p>So Stache keeps the whole picture on your hard drive &mdash; the meetings, the contracts, the half-formed 2am ideas, all of it. When a question needs an AI engine, he sends just the slice that matters for that one task. Nothing more. The picture itself never leaves. He brings you the value without the exposure. Because it's your shit, not theirs.</p>
+    <p>So Stache keeps the whole picture in a safe vault on your Mac &mdash; the meetings, the contracts, the half-formed 2am ideas, all of it. When a question needs an AI engine, he sends just the slice that matters for that one task. Nothing more. The picture itself never leaves. He brings you the value without the exposure. Because it's your shit, not theirs.</p>
 
+  </div>
+
+  <div class="mt-14 pt-10 border-t border-ink/10 max-w-xl">
+    <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Who's behind Stache</p>
+    <p class="mt-4 font-sans text-base text-ink/70 leading-[1.6]">
+      Stache is a garage project by Pejman Mohammadi, made to dig himself out. He's a scientist &mdash; busy all the time, messy hair, nerd talk, a million ideas, the whole package. These days he's also got two young kids, a household's worth of paperwork, and a wife who's busier than he is. They just couldn't keep up. So he built Stache to keep up, and figured he might as well share.
+    </p>
   </div>
 
   <div class="mt-16 text-right">
