@@ -26,7 +26,7 @@ permalink: /about-stache/
 
 <section class="mx-auto max-w-2xl px-6 pt-12 pb-24 md:pt-16 md:pb-32 border-t border-ink/10">
 
-  <h2 class="font-serif font-bold display-tight text-[1.9rem] md:text-[2.6rem] leading-[1.05] text-ink">
+  <h2 class="font-serif font-bold display-tight text-[1.4rem] md:text-[1.8rem] leading-[1.1] text-ink">
     About Stache.
   </h2>
 
