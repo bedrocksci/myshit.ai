@@ -68,21 +68,42 @@ classification: public
   </details>
 </section>
 
-<!-- Comes in the Stache -->
-<section class="mx-auto max-w-5xl px-6 py-20 md:py-24 border-t border-ink/10">
-  <div class="text-center mb-12 md:mb-14">
-    <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Comes in the Stache&trade;</p>
-    <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[1.8rem] md:text-4xl">
-      Your stuff, finally findable.
+<!-- What's the fuss? -->
+<section class="mx-auto max-w-4xl px-6 py-20 md:py-28 border-t border-ink/10">
+  <div class="text-center">
+    <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">
+      What's the fuss?
+    </p>
+    <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[2rem] md:text-5xl">
+      To be useful, AI needs specifics.
     </h2>
-    <div class="mt-7 font-serif text-lg md:text-xl text-ink/75 max-w-2xl mx-auto leading-relaxed space-y-4">
+    <div class="mt-7 font-serif text-lg md:text-xl text-ink/70 max-w-2xl mx-auto leading-relaxed space-y-4">
       <p>
-        Throw him a meeting, a contract, a screenshot, a half-finished idea you scribbled at 2am. He stashes it, names it, files it where it belongs.
+        Imagine a powerful AI system that knows exactly who you are, what you wanna do, why you wanna do it, who you do it with — and everything else that makes you tick… <em class="italic">terribly helpful, or terrifying?</em>
       </p>
       <p>
-        Ask him about it later &mdash; <em>what did the lawyer say last March, where's the W2, what was that paper Sam mentioned</em> &mdash; he just tells you. Or hands the answer to whatever AI you're using, so it stops sounding like a stranger wrote it.
+        The difference is who owns it, and what they decide to do with it.
+      </p>
+      <p class="text-rust font-semibold">
+        We help you build the first one, so you don't have to settle for the second and find out.
+      </p>
+      <p class="!mt-5">
+        <a href="#decay" class="inline-flex items-center gap-1.5 text-rust/80 hover:text-rust text-base font-medium transition-colors group">
+          <span class="border-b border-rust/30 group-hover:border-rust">Learn more about platform decay</span>
+          <span class="transition-transform group-hover:translate-x-0.5" aria-hidden="true">→</span>
+        </a>
       </p>
     </div>
+  </div>
+</section>
+
+<!-- Comes in the Stache -->
+<section class="mx-auto max-w-5xl px-6 py-20 md:py-24 border-t border-ink/10">
+  <div class="text-center mb-14 md:mb-16">
+    <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Comes in the Stache&trade;</p>
+    <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[1.8rem] md:text-4xl">
+      Three simple ingredients.
+    </h2>
   </div>
   <div class="grid md:grid-cols-3 gap-12 md:gap-10">
     <div class="group cursor-default">
@@ -109,35 +130,6 @@ classification: public
       </h3>
       <p class="mt-3 text-muted leading-relaxed">
         <span class="text-ink">All your data sits on your Mac. Plain and simple.</span> Read it, edit it, take it where you need it. It's your shit, not ours.
-      </p>
-    </div>
-  </div>
-</section>
-
-<!-- What's the fuss? -->
-<section class="mx-auto max-w-4xl px-6 py-20 md:py-28 border-t border-ink/10">
-  <div class="text-center">
-    <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">
-      What's the fuss?
-    </p>
-    <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[2rem] md:text-5xl">
-      To be useful, AI needs specifics.
-    </h2>
-    <div class="mt-7 font-serif text-lg md:text-xl text-ink/70 max-w-2xl mx-auto leading-relaxed space-y-4">
-      <p>
-        Imagine a powerful AI system that knows exactly who you are, what you wanna do, why you wanna do it, who you do it with — and everything else that makes you tick… <em class="italic">terribly helpful, or terrifying?</em>
-      </p>
-      <p>
-        The difference is who owns it, and what they decide to do with it.
-      </p>
-      <p class="text-rust font-semibold">
-        We help you build the first one, so you don't have to settle for the second and find out.
-      </p>
-      <p class="!mt-5">
-        <a href="#decay" class="inline-flex items-center gap-1.5 text-rust/80 hover:text-rust text-base font-medium transition-colors group">
-          <span class="border-b border-rust/30 group-hover:border-rust">Learn more about platform decay</span>
-          <span class="transition-transform group-hover:translate-x-0.5" aria-hidden="true">→</span>
-        </a>
       </p>
     </div>
   </div>
