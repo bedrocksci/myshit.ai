@@ -29,7 +29,7 @@ permalink: /about-stache/
   </div>
 
   <div class="mt-14 pt-10 border-t border-ink/10">
-    <div class="flex flex-col md:flex-row md:items-start gap-6 md:gap-8">
+    <div class="flex flex-col md:flex-row md:items-end gap-6 md:gap-8">
       <div class="flex-1 min-w-0 max-w-xl order-2 md:order-1">
         <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Who's behind Stache</p>
         <p class="mt-4 font-sans text-base text-ink/70 leading-[1.6]">
