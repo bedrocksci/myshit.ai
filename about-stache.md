@@ -6,11 +6,29 @@ date: 2026-04-25
 permalink: /about-stache/
 ---
 
-<section class="mx-auto max-w-2xl px-6 pt-12 pb-24 md:pt-20 md:pb-32">
+<!-- Everything Nowhere, All at Once -->
+<section class="mx-auto max-w-3xl px-6 pt-12 pb-16 md:pt-20 md:pb-20">
 
   <h1 class="font-serif font-bold display-tight text-[1.9rem] md:text-[2.6rem] leading-[1.05] text-ink">
-    About Stache.
+    Everything &ndash;NowHere&ndash; All at Once.
   </h1>
+
+  <div class="mt-8 font-serif text-lg md:text-xl text-ink/75 leading-relaxed space-y-4">
+    <p>
+      Throw him a meeting, a contract, a screenshot, a half-finished idea you scribbled at 2am. He stashes it, names it, files it where it belongs.
+    </p>
+    <p>
+      Ask him about it later &mdash; <em>what did the lawyer say last March, where's the W2, what was that paper Sam mentioned</em> &mdash; he just tells you. Or hands the answer to whatever AI you're using, so it stops sounding like a stranger wrote it.
+    </p>
+  </div>
+
+</section>
+
+<section class="mx-auto max-w-2xl px-6 pt-12 pb-24 md:pt-16 md:pb-32 border-t border-ink/10">
+
+  <h2 class="font-serif font-bold display-tight text-[1.9rem] md:text-[2.6rem] leading-[1.05] text-ink">
+    About Stache.
+  </h2>
 
   <div class="mt-10 font-sans text-base md:text-lg text-ink/80 leading-[1.65] space-y-5">
 
