@@ -88,8 +88,8 @@ classification: public
         We help you build the first one, so you don't have to settle for the second and find out.
       </p>
       <p class="!mt-5">
-        <a href="#decay" class="inline-flex items-center gap-1.5 text-rust/80 hover:text-rust text-base font-medium transition-colors group">
-          <span class="border-b border-rust/30 group-hover:border-rust">learn about How things go bad when your data's out there.</span>
+        <a href="#decay" class="inline-flex items-center gap-1.5 text-ink/55 hover:text-ink text-base font-medium transition-colors group">
+          <span class="border-b border-ink/20 group-hover:border-ink/55">learn about How things go bad when your data's out there.</span>
           <span class="transition-transform group-hover:translate-x-0.5" aria-hidden="true">→</span>
         </a>
       </p>
