@@ -38,11 +38,11 @@ permalink: /about-stache/
     </div>
   </div>
 
-  <div class="mt-16 text-right">
+  <div class="mt-16 text-right group cursor-default">
     <p class="font-serif italic text-ink/70 text-xl md:text-2xl">
       Your shit, your stash, your rules.
     </p>
-    <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="mt-3 ml-auto h-10 md:h-12 w-auto">
+    <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="mt-3 ml-auto h-10 md:h-12 w-auto transition-transform duration-700 ease-out group-hover:rotate-[360deg] motion-reduce:transition-none motion-reduce:group-hover:rotate-0">
   </div>
 
   <div class="mt-20 text-center">
