@@ -149,7 +149,10 @@ classification: public
   <div class="grid md:grid-cols-3 gap-10 md:gap-10 mb-14 md:mb-16">
     <div>
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Lock-in</p>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">You get hooked,<br>and the deal turns sour.</h3>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
+        You get hooked,<br>
+        <span class="text-ink/55">and the deal turns sour.</span>
+      </h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. The pattern even has a name now: <em>enshittification</em>, the American Dialect Society's 2023 Word of the Year. Facebook, Amazon, Uber &mdash; pick your favorite.
       </p>
@@ -160,12 +163,15 @@ classification: public
     </div>
     <div>
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Misuse</p>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">Hand it over once,<br>and it's out of your hands.</h3>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
+        Hand it over once,<br>
+        <span class="text-ink/55">and it's out of your hands.</span>
+      </h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         Sometimes there was no deal at all. Your face from a friend's tag, in a face-rec database. Your voice memo, overheard by a contractor. Your neighborhood ping, in a court warrant. <span class="text-ink">Things you'd have said no to, if anyone had bothered to ask.</span>
       </p>
       <div class="mt-5">
-        <p class="text-rust font-semibold uppercase tracking-[0.18em] text-[0.65rem] mb-2">Read past examples</p>
+        <p class="text-[0.82rem] text-ink/70 leading-relaxed mb-2">Read more about:</p>
         <ul class="text-[0.82rem] text-ink/70 leading-relaxed space-y-1">
           <li>
             Your face mined:
@@ -188,7 +194,10 @@ classification: public
     </div>
     <div>
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Drift</p>
-      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">The company goes down, your data goes up for sale.</h3>
+      <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
+        The company goes down,<br>
+        <span class="text-ink/55">your data goes up for sale.</span>
+      </h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         When a company goes bankrupt, you'd lose your data, if you're lucky. If not, your data becomes a liquid asset, sold for scraps. Think DNA from fifteen million people, sold for scraps.
       </p>

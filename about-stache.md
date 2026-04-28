@@ -14,7 +14,7 @@ permalink: /about-stache/
 
   <div class="mt-10 font-sans text-base md:text-lg text-ink/80 leading-[1.65] space-y-5">
 
-    <p><strong class="text-ink font-semibold">Stache takes the notes.</strong> What you said in a meeting last Tuesday. The half-formed idea you voice-memo'd on a walk. The article a friend sent that was actually really good. The form due before tax season. He catches it as it happens, sorts it, puts it where it belongs.</p>
+    <p><strong class="text-ink font-semibold">Stache&trade; takes the notes.</strong> What you said in a meeting last Tuesday. The half-formed idea you voice-memo'd on a walk. The article a friend sent that was actually really good. The form due before tax season. He catches it as it happens, sorts it, puts it where it belongs.</p>
 
     <p>Then ask him about it later: what did the lawyer say last March? Where's the W2? Who else is working on similar ideas? He just tells you. He doesn't get bored, doesn't get distracted, never forgets where he put something.</p>
 
