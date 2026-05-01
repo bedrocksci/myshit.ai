@@ -7,14 +7,14 @@ classification: public
 <!-- Hero -->
 <section class="mx-auto max-w-5xl px-6 pt-16 pb-20 md:pt-28 md:pb-28 text-center">
   <p class="font-serif italic text-lg md:text-xl text-muted max-w-2xl mx-auto leading-snug">
-    <span class="tagline-phrase">AI tools change.</span> <span class="tagline-phrase" style="animation-delay: 1s;">Corporations change.</span> <span class="tagline-phrase" style="animation-delay: 2s;"><span class="text-sm md:text-base">Fineprints</span> change.</span> <span class="text-ink not-italic font-semibold">But.</span>
+    <span class="tagline-phrase">AI tools change.</span> <span class="tagline-phrase" style="animation-delay: 1s;">Corporations change.</span> <span class="tagline-phrase" style="animation-delay: 2s;">Fineprints change.</span> <span class="text-ink not-italic font-semibold">But.</span>
   </p>
   <h1 class="mt-5 font-serif font-bold display-tight text-[3rem] sm:text-6xl md:text-7xl lg:text-8xl leading-[1.02] text-ink">
-    Your shit should stay&nbsp;yours.
+    Your shit should stay&nbsp;yours
   </h1>
   <p class="mt-8 font-serif text-lg md:text-xl text-ink/70 max-w-xl mx-auto leading-relaxed">
     Stashed on your Mac, used for your good,<br>
-    <span class="italic text-ink/55">not for someone else's bottom line.</span>
+    <span class="italic text-ink/55">not for someone else's bottom line</span>
   </p>
 
   <details class="mt-10 inline-block text-left group">
@@ -75,11 +75,11 @@ classification: public
       What's the fuss?
     </p>
     <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[2rem] md:text-5xl">
-      To be useful, AI needs specifics.
+      To be useful, AI needs specifics
     </h2>
     <div class="mt-7 font-serif text-lg md:text-xl text-ink/70 max-w-2xl mx-auto leading-relaxed space-y-4">
       <p>
-        Imagine a powerful AI system that knows exactly who you are, what you wanna do, why you wanna do it, who you do it with — and everything else that makes you tick… <em class="italic">terribly helpful, or terrifying?</em>
+        Imagine a powerful AI system that knows exactly who you are, what you wanna do, why you wanna do it, who you do it with, and everything else that makes you tick… <em class="italic">terribly helpful, or terrifying?</em>
       </p>
       <p>
         The difference is who owns it, and what they decide to do with it.
@@ -89,7 +89,7 @@ classification: public
       </p>
       <p class="!mt-5">
         <a href="#decay" class="inline-flex items-center gap-1.5 text-ink/55 hover:text-ink text-base font-medium transition-colors group">
-          <span class="border-b border-ink/20 group-hover:border-ink/55">learn about How things go bad when your data's out there.</span>
+          <span class="border-b border-ink/20 group-hover:border-ink/55">learn about how things go bad when your data's out there.</span>
           <span class="transition-transform group-hover:translate-x-0.5" aria-hidden="true">→</span>
         </a>
       </p>
@@ -100,33 +100,33 @@ classification: public
 <!-- Comes in the Stache -->
 <section class="mx-auto max-w-5xl px-6 py-20 md:py-24 border-t border-ink/10">
   <div class="text-center mb-14 md:mb-16">
-    <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">Comes in the Stache&trade;</p>
+    <p class="font-sans text-[0.72rem] font-semibold tracking-[0.18em] uppercase text-rust">With three simple ingredients</p>
     <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[1.8rem] md:text-4xl">
-      Three simple ingredients.
+      In comes the Stache&trade;
     </h2>
   </div>
   <div class="grid md:grid-cols-3 gap-12 md:gap-10">
     <div class="group cursor-default">
       <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="h-7 w-auto transition-transform duration-700 ease-out group-hover:rotate-[360deg] motion-reduce:transition-none motion-reduce:group-hover:rotate-0">
       <h3 class="mt-4 font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
-        Stache takes notes.<br>
-        <span class="text-ink/55">So you don't have to.</span>
+        Stache takes notes<br>
+        <span class="text-ink/55">so you don't have to</span>
       </h3>
       <p class="mt-3 text-muted leading-relaxed">Docs, meetings, emails, crazy ideas. You throw it, he stashes it where it belongs. No writing, no organizing, no hassle.</p>
     </div>
-    <div class="group cursor-default">
+    <div class="group cursor-default md:pl-6 md:border-l md:border-rust/30">
       <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="h-7 w-auto transition-transform duration-700 ease-out group-hover:rotate-[360deg] motion-reduce:transition-none motion-reduce:group-hover:rotate-0">
       <h3 class="mt-4 font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
-        Stache briefs AI tools.<br>
-        <span class="text-ink/55">So you don't have to.</span>
+        Stache briefs AI tools<br>
+        <span class="text-ink/55">so you don't have to</span>
       </h3>
       <p class="mt-3 text-muted leading-relaxed">No more generic AI slop. ChatGPT, Claude, or whatever's next. He shares just what they need to know on a need-to-know basis.</p>
     </div>
     <div class="group cursor-default md:pl-6 md:border-l md:border-rust/30">
       <img src="/assets/img/stache.svg" alt="" aria-hidden="true" class="h-7 w-auto transition-transform duration-700 ease-out group-hover:rotate-[360deg] motion-reduce:transition-none motion-reduce:group-hover:rotate-0">
       <h3 class="mt-4 font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
-        Stache doesn't creep.<br>
-        <span class="text-ink/55">And shuts out others too.</span>
+        Stache doesn't creep<br>
+        <span class="text-ink/55">and shuts out others too</span>
       </h3>
       <p class="mt-3 text-muted leading-relaxed">
         <span class="text-ink">All your data sits on your Mac. Plain and simple.</span> Read it, edit it, take it where you need it. It's your shit, not ours.
@@ -142,7 +142,7 @@ classification: public
       What keeps Stache up at night
     </p>
     <h2 class="mt-4 font-serif font-semibold text-ink leading-[1.1] display-tight text-[1.8rem] md:text-4xl max-w-3xl mx-auto">
-      How things go bad when your data's out there.
+      How things go bad when your data's out there
     </h2>
   </div>
 
@@ -151,10 +151,10 @@ classification: public
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Lock-in</p>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
         You get hooked,<br>
-        <span class="text-ink/55">and the deal turns sour.</span>
+        <span class="text-ink/55">and the deal turns sour</span>
       </h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
-        You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. The pattern even has a name now: <em>enshittification</em>, the American Dialect Society's 2023 Word of the Year. Facebook, Amazon, Uber &mdash; pick your favorite.
+        You sign on for free, fast, frictionless. You build on it. It becomes <em>the</em> place. Then, slowly, the deal turns. Charges appear. Defaults shift. Reach narrows. The picture you helped build no longer answers to you. The pattern even has a name now: <em>enshittification</em>, the American Dialect Society's 2023 Word of the Year. Facebook, Amazon, Uber. Pick your favorite.
       </p>
       <p class="mt-5 text-[0.82rem] text-ink/70 leading-relaxed">
         Read more about enshittification (platform decay):
@@ -165,7 +165,7 @@ classification: public
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Misuse</p>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
         Hand it over once,<br>
-        <span class="text-ink/55">and it's out of your hands.</span>
+        <span class="text-ink/55">and it's out of your hands</span>
       </h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         Sometimes there was no deal at all. Your face from a friend's tag, in a face-rec database. Your voice memo, overheard by a contractor. Your neighborhood ping, in a court warrant. <span class="text-ink">Things you'd have said no to, if anyone had bothered to ask.</span>
@@ -196,7 +196,7 @@ classification: public
       <p class="font-sans text-[0.65rem] font-semibold tracking-[0.18em] uppercase text-rust mb-2">Drift</p>
       <h3 class="font-serif text-xl md:text-2xl font-semibold text-ink leading-tight">
         The company goes down,<br>
-        <span class="text-ink/55">your data goes up for sale.</span>
+        <span class="text-ink/55">your data goes up for sale</span>
       </h3>
       <p class="mt-4 font-serif text-base md:text-lg text-ink/75 leading-relaxed">
         When a company goes bankrupt, you'd lose your data, if you're lucky. If not, your data becomes a liquid asset, sold for scraps. Think DNA from fifteen million people, sold for scraps.
@@ -212,7 +212,7 @@ classification: public
 
   <div class="font-serif text-base md:text-lg text-ink/75 max-w-2xl mx-auto leading-relaxed text-center">
     <p>
-      Stache can't fix it all. But he can help you do one thing &mdash; refuse to be a source of any of them. When the picture lives on your own computer, in files you control: the deal can't change on you. The company can't disappear with your stuff. Nobody at HQ has anyone's data to get clever with. <span class="text-ink">Stache wants to get ahead of that.</span>
+      Stache can't fix it all. But he can help you do one thing: refuse to be a source of any of them. When the picture lives on your own computer, in files you control: the deal can't change on you. The company can't disappear with your stuff. Nobody at HQ has anyone's data to get clever with. <span class="text-ink">Stache wants to get ahead of that.</span>
     </p>
   </div>
 </section>
